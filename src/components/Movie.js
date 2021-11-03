@@ -28,7 +28,7 @@ const Movie = () => {
         <>
             <BreadCrumb movieTitle={movie.original_title} />
             <MovieInfo movie={movie} />
-            <MovieInfoBar time={movie.runtime} budget={movie.budge} revenue={movie.revenue} />
+            <MovieInfoBar time={movie.runtime} budget={movie.budget} revenue={movie.revenue} />
 
             <Grid header='Actors'>
                 {movie.actors.map(actor => (
